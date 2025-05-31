@@ -2,7 +2,7 @@
 
 1. Temporada 2023
     - [Julio 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#July-2023)
-    - [Augosto 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#August-2023)
+    - [Agosto 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#August-2023)
     - [Septiembre 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#September-2023)
     - [Octubre 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#October-2023)
 2. Temporada 2024
@@ -269,3 +269,17 @@ La programación del primer reto fue rápida, por lo que se comenzó a trabajar 
 ### LUKA 3.0
 
 ![Luka`s right](https://github.com/user-attachments/assets/7adb4b68-6ba3-44b4-b7dc-02d3c609dd1a)
+
+
+### POMPO 1.0
+
+![Image](https://github.com/user-attachments/assets/02ba46a0-c65a-447c-a863-a571f83f3bbb)
+
+### POMPO 2.0
+
+![Image](https://github.com/user-attachments/assets/36442ffd-411f-4371-bcaa-29c3b6fd4452)
+
+
+### POMPO 3.0
+
+![Image](https://github.com/user-attachments/assets/40842456-c271-4c38-b15f-77bbeb7e6772)

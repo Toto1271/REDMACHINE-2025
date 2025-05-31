@@ -2,16 +2,15 @@
 
 Este repositorio contiene todos los materiales necesarios para crear a "pompo", el robot autonomo creado por el equipo "Red Machine", con el objetivo de participar en la categoría de Futuros Ingenieros en las diferentes etapas de la WRO Venezuela, en su edición 2025. 
 
-![Luka`s front](https://github.com/user-attachments/assets/cb8bf7b5-eaee-497f-9a00-b02afdd8bf22)
+![Image](https://github.com/user-attachments/assets/86d8b3ba-9f00-4d94-9a0b-7fb3f87d222e)
 
 
 # Contenido
 
  -  [Miembros del equipo Red Machine]
- -  [Introduction] 
+ -  [Introduccion] 
  -  [Diseño mecánico]
  -  [Diseño del software]
- -  [Mechanical Index]
  -  [Historia y cronología]
 
 
@@ -32,7 +31,7 @@ El equipo ha hecho su mayor esfuerzo para conseguir construir el mejor robot pos
 # Diseño mecánico
 "Pompo" es un robot autónomo diseñado con piezas de lego, con la finalidad de conseguir la mayor presición y estabilidad posible durante las rondas de competencia. Dichas piezas fueron extraídas de un kit lego spike prime código 45678 y spike prime expansion set código 45681. 
 El fundamento que llevó a utilizar piezas de lego para el cuerpo de pompo se basa en la conocida eficiencia de los robots construidos de dicha manera, tomando en cuenta los resultados positivos y la facilidad que permiten a la hora de la construcción. 
-Además, se agrega un diseño 3D del diseño de Pompo, donde se pueden ver y analizar eficientemente todos los componentes, piezas y estructuras: 
+Además, en el apartado "v-photos" se muestran fotos del diseño de Pompo, donde se pueden ver y analizar eficientemente todos los componentes, piezas y estructuras.
 
 
 
@@ -68,54 +67,30 @@ Servo motor de Rev Robotics: Es un motor eléctrico con sensor de retroalimentac
 
 ![servo pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/57aaa91d-b5e5-4360-aef2-06025d15f8b0)
 
-Electric motor: A device that converts electrical energy into mechanical movement, allowing in this case to move a gearbox and mobilize the wheels. The speed and torque it has are determined by the voltage sent through the H-bridge, being moderated by the Arduino.
+Motor lego ev3: Dispositivo que convierte la energía eléctrica en movimiento mecánico, permitiendo en este caso mover una caja de cambios y movilizar las ruedas. La velocidad y el par que tiene vienen determinados por la tensión enviada a través del puente en H, siendo moderados por el Arduino.
 
-![motor pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/a74aacac-0276-49b0-abc1-485906c2a775)
+![Image](https://github.com/user-attachments/assets/05c10969-e9a6-404b-a141-5e44218d54df)
 
 
-El Arduino está alimentado por tres baterías de 9v, y enciende mediante un interruptor. Se encarga de alimentar y dar las respectivas señales al servomotor, para que sea capaz de realizar los cruces de forma efectiva con facilidad t al giroscopio, además de dar y recibir señales del resto de sensores. 
+El Arduino está alimentado por una batería de 9v, y enciende mediante un interruptor. Se encarga de alimentar y dar las respectivas señales al servomotor, para que sea capaz de realizar los cruces de forma efectiva con facilidad al giroscopio, además de dar y recibir señales del resto de sensores. 
 
-Por último, el puente H está conectado y alimentado por tres baterías de 3,7v y se enciende con el mismo interruptor que enciende el Arduino.
+Por último, el puente H está conectado y alimentado por dos baterías de 3,7v y se enciende con el mismo interruptor que enciende el Arduino.
 El puente H recibe señales del Arduino que llevan a mover el motor en diferentes direcciones y velocidades. También se encarga de alimentar los sensores ultrasónicos.
-
+  
 
 # Diseño del software
 
-1. Image analysis
-    -  [Image Processing](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Image-Processing)
-    -  [Color detection](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md##Color-detection)
-    - [Programming](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md##Programming)
-2. [Robot movement]
-    - [Servo Determination](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md#Servo-Determination)
-    - [Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Orientation)
-    - [Gyroscope Sideturns](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Gyroscope-Sideturns)
-    - [First Challenge](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#First-Challenge)
-    - [Correction](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Correction)
-    - [First Challenge parking](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#First-Challenge-parking)
-    - [Obstacle Challenge](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Obstacle-Challenge)
-    - [Detection of Pillars](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Detection-of-Pillars)
-    - [Movement through Orientation](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Movement-through-Orientation)
-    - [Pillar avoidment First Lap](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Pillar-avoidment-First-Lap)
-    - [Post-first sideturn](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Post-first-sideturn)
-    - [Pillar storage](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Pillar-storage)
-    - [Second and Third Lap Strategy](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Second-and-Third-Lap-Strategy)
-    - [Next Pillar](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Next-Pillar)
-    - [Sideturns](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Sideturns)
-    - [Parking Obstacle Challenge](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Code.md/#Parking-Obstacle-Challenge)
-
-
-
+1. Análisis de imágenes
+    -  [Procesamiento de imágenes](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/software.md#Procesamiento-de-imágenes)
+    -  [Detección de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/software.md#Detección-de-color)
+    - [Programación](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/software.md#Programación)
 
 
 # Videos del funcionamiento de pompo
- - [Primer reto (TODAS LAS POSIBILIADES)](https://www.youtube.com/watch?v=auAgh7E2WA8)
+ - [FUTUROS INGENIEROS-Reto 1](https://youtu.be/I5WXGXlZpG4?si=D2IsjQdoafDccQmA)
 
-[![image](https://github.com/user-attachments/assets/ed1c0d5b-dab7-4e8b-98aa-dfcefc9b1e91)](https://www.youtube.com/watch?v=auAgh7E2WA8)
+[![Image](https://github.com/user-attachments/assets/3a998c08-fef1-4247-a1c7-fdddfd4fdfc8)](https://youtu.be/I5WXGXlZpG4?si=D2IsjQdoafDccQmA)
  
-
- - [Second challenge practice](https://www.youtube.com/watch?v=cjjnRDXaDAU)
-
-[![image](https://github.com/user-attachments/assets/b4dc474c-5cb7-4fe4-aece-13e8c19d635f)](https://www.youtube.com/watch?v=cjjnRDXaDAU)
 
 
 
@@ -123,34 +98,43 @@ El puente H recibe señales del Arduino que llevan a mover el motor en diferente
 # Índice mecánico
 Para más información sobre la mecánica, se ha creado un documento en el que puedes consultar las especificaciones de las piezas y mecanismos del robot.
 
--  [Motors](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Analisis-del-funcionamiento-de-los-motores)
-- [Sensors](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Sensors)
--  [Camera](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Camera)
-- [Controller boards](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Controller-cards)
- - [Robot power](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Robot-power)
- - [Conexions diagram](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Mechanics.md#Conexions-diagram)
+ - [Motores](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Análisis-del-funcionamiento-de-los-motores)
+ - [Sensores](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Sensores)
+ - [Camera](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Cámara)
+ - [Placas controladora](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Placas-controladoras)
+ - [Alimentación del robot](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Alimentación-del-robot)
+
+
 
 # Historia y cronología del equipo
 
-1. 2023 Season
-- [July 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#July-2023)
-- [August 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#August-2023)
-- [September 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#September-2023)
-- [October 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#October-2023)
-2. 2024 Season 
-- [February 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#February-2024)
-- [March 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#March-2024)
-- [April 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#April-2024)
-- [May 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#May-2024)
-- [June 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#June-2024)
-- [October 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#October-2024)
-- [November 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#November-2024)
-3. Julian´s and Luka´s history 
-- [JULIAN 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-1.0)
-- [JULIAN 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-2.0)
-- [JULIAN 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-3.0)
-- [JULIAN 4.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-4.0)
-- [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#JULIAN-5.0)
-- [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#LUKA-1.0)
-- [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#LUKA-2.0)
-- [LUKA 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/History.md#LUKA-3.0)
+1. Temporada 2023
+- [Julio 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Julio-2023)
+- [Agosto 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Agosto-2023)
+- [Septiembre 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Septiembre-2023)
+- [Octubre 2023](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Octubre-2023)
+2. Temporada 2024 
+- [Febrero 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Febrero-2024)
+- [Marzo 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Marzo-2024)
+- [Abril 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Abril-2024)
+- [Mayo 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Mayo-2024)
+- [Junio 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Junio-2024)
+- [Octubre 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Octubre-2024)
+- [Noviembre 2024](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Noviembre-2024)
+3. Temporada 2025
+- [Febrero 2025](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Febrero-2025)
+- [Marzo 2025](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Marzo-2025)
+- [Abril 2025](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Abril-2025)
+- [Mayo 2025](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#Mayo-2025)
+4. Julian, Luka y Pompo
+- [JULIAN 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-1.0)
+- [JULIAN 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-2.0)
+- [JULIAN 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-3.0)
+- [JULIAN 4.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-4.0)
+- [JULIAN 5.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#JULIAN-5.0)
+- [LUKA 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#LUKA-1.0)
+- [LUKA 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#LUKA-2.0)
+- [LUKA 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#LUKA-3.0)
+- [POMPO 1.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#POMPO-1.0)
+- [POMPO 2.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#POMPO-2.0)
+- [POMPO 3.0](https://github.com/RoboticaLLR/redmachine2024/blob/main/t-photos/Historia.md#POMPO-3.0)

@@ -1,10 +1,11 @@
-# Index
- -  [Motores]
- - [Sensores]
- - [Camera]
- - [Placas controladora]
- - [Alimentación del robot]
- - [Diagrama de conexiones]
+# Índice
+ -  [Motores](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Análisis-del-funcionamiento-de-los-motores)
+ - [Sensores](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Sensores)
+ - [Camera](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Cámara)
+ - [Placas controladora](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Placas-controladoras)
+ - [Alimentación del robot](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Alimentación-del-robot)
+ 
+
 
 
 # Análisis del funcionamiento de los motores
@@ -175,7 +176,7 @@ Luka utiliza una única placa controladora: un Arduino Mega 2560. El Arduino se 
 
 
 
-# Alimentación de robots
+# Alimentación del robot
 Pompo utilza dos sistemas de alimentación individuales.
 
 A REVISAAAAR
@@ -194,7 +195,3 @@ Este circuito utiliza 3 baterías de 9V conectadas en paralelo, por lo que el am
 ![Primera foto 9 voltios 2](https://github.com/user-attachments/assets/79c1b298-762f-4a96-95a9-bb6aa8bb3e1f)
 ![segunda foto 9 voltios 2](https://github.com/user-attachments/assets/a10426e9-767d-496e-b5a6-bf88363a8a4a)
 
-# Diagrama de conexiones
-El diagrama de conexiones se muestra para que pueda verse claramente todo el circuito.
-
-![Diagrama de conexion luka nuevo](https://github.com/user-attachments/assets/6a02a72f-8d6e-445f-9afe-fa92380ca7a5)
