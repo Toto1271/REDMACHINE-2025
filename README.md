@@ -92,7 +92,9 @@ El puente H recibe señales del Arduino que llevan a mover el motor en diferente
 [![Image](https://github.com/user-attachments/assets/3a998c08-fef1-4247-a1c7-fdddfd4fdfc8)](https://youtu.be/I5WXGXlZpG4?si=D2IsjQdoafDccQmA)
  
 
+- [FUTUROS INGENIEROS-Reto 2](https://youtu.be/XvPb05R_A2o?si=kEyuvRi_PKU7EDct)
 
+[![Image](https://github.com/user-attachments/assets/7d8d684a-25f8-4bad-a824-62b761711ac8)](https://youtu.be/XvPb05R_A2o?si=kEyuvRi_PKU7EDct)
 
 
 # Índice mecánico
