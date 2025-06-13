@@ -1,9 +1,9 @@
 # Índice
- -  [Motores](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Análisis-del-funcionamiento-de-los-motores)
- - [Sensores](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Sensores)
- - [Camera](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Cámara)
- - [Placas controladora](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Placas-controladoras)
- - [Alimentación del robot](https://github.com/RoboticaLLR/redmachine2024/blob/main/schemes/Hardware.md#Alimentación-del-robot)
+- [Motores](https://github.com/Samu4035/REDMACHINE-2025/blob/main/schemes/Hardware.md#Análisis-del-funcionamiento-de-los-motores)
+- [Sensores](https://github.com/Samu4035/REDMACHINE-2025/blob/main/schemes/Hardware.md#Sensores)
+- [Camera](https://github.com/Samu4035/REDMACHINE-2025/blob/main/schemes/Hardware.md#Cámara)
+- [Placas controladora](https://github.com/Samu4035/REDMACHINE-2025/blob/main/schemes/Hardware.md#Placas-controladoras)
+- [Alimentación del robot](https://github.com/Samu4035/REDMACHINE-2025/blob/main/schemes/Hardware.md#Alimentación-del-robot)
  
 
 

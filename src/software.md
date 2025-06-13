@@ -1,9 +1,9 @@
 # Diseño del software
 
 1. Análisis de imágenes
-    -  [Procesamiento de imágenes](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/software.md#Procesamiento-de-imágenes)
-    -  [Detección de color](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/software.md#Detección-de-color)
-    - [Programaciób](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/software.md#Programación)
+-  [Procesamiento de imágenes](https://github.com/Samu4035/REDMACHINE-2025/blob/main/src/software.md#Procesamiento-de-imágenes)
+-  [Detección de color](https://github.com/Samu4035/REDMACHINE-2025/blob/main/src/software.md#Detección-de-color)
+-  [Programación](https://github.com/Samu4035/REDMACHINE-2025/blob/main/src/software.md#Programación)
 
 # Procesamiento de imágenes
 Para procesar la imagen, Luka utiliza una cámara. Esta es la pixy2. 
