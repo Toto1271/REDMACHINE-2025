@@ -13,7 +13,6 @@ Este repositorio contiene todos los materiales necesarios para crear a "pompo", 
  -  [Diseño del software](https://github.com/Samu4035/REDMACHINE-2025/blob/main/README.md#Diseño-del-software)
  -  [Videos del funcionamiento de pompo](https://github.com/Samu4035/REDMACHINE-2025/blob/main/README.md#Videos-del-funcionamiento-de-pompo)
  -  [Historia y cronología](https://github.com/Samu4035/REDMACHINE-2025/blob/main/README.md#Historia-y-cronología)
-  -  [Planteamiento futuro](https://github.com/Samu4035/REDMACHINE-2025/blob/main/README.md#Planteamiento-futuro)
 
 
 # Miembros de Red Machine
@@ -73,6 +72,15 @@ Motor lego ev3: Dispositivo que convierte la energía eléctrica en movimiento m
 
 ![Image](https://github.com/user-attachments/assets/05c10969-e9a6-404b-a141-5e44218d54df)
 
+Raspberry pi 5: Es la última versión de las computadoras de placa única desarrolladas por la Fundación Raspberry Pi, lanzada en 2023. Esta versión incluye un procesador Broadcom BCM2712 de cuatro núcleos Arm Cortex-A76 a 2,4 GHz, lo que la hace entre dos y tres veces más rápida que la generación anterior. Viene en versiones de 4 GB y 8 GB de memoria RAM LPDDR4X, incorpora una GPU mejorada compatible con OpenGL ES 3.1 y Vulkan 1.2, y permite conectar dos monitores 4K a 60 Hz al mismo tiempo. Además, ofrece conectividad avanzada con Wi-Fi 5, Bluetooth 5.0, Ethernet Gigabit, dos puertos USB 3.0, dos USB 2.0, dos micro HDMI, ranura microSD de alta velocidad, conectores MIPI para cámaras y pantallas, y un puerto PCIe para discos SSD u otros periféricos rápidos (usando un adaptador). También cuenta con un botón de encendido, reloj en tiempo real, soporte para ventilador y mejoras en la gestión de energía. Gracias a estas características, la Raspberry Pi 5 es ideal tanto para proyectos de electrónica y robótica como para usarse como mini PC, servidor, centro multimedia o incluso para tareas más exigentes como inteligencia artificial y procesamiento de imágenes, representando un gran avance en potencia y versatilidad dentro del mundo de las computadoras compactas y económicas.
+
+![Image](https://github.com/user-attachments/assets/33d23ad4-043a-4c6b-8bab-c31a648c3e4a)
+
+Sensor LiDAR: Un sensor LiDAR (Light Detection and Ranging) es un dispositivo de teledetección que utiliza pulsos de luz láser para medir distancias con gran precisión y crear mapas tridimensionales del entorno. Su funcionamiento se basa en emitir miles de pulsos de láser por segundo hacia los objetos; estos pulsos rebotan y regresan al sensor, que mide el tiempo que tarda cada pulso en ir y volver. Como la velocidad de la luz es conocida, este tiempo de vuelo permite calcular la distancia exacta entre el sensor y los objetos o superficies. Los datos recolectados se procesan para formar una nube de puntos, que es una representación 3D detallada del área escaneada.
+
+![Image](https://github.com/user-attachments/assets/234ebb64-bf87-4ec4-82ca-5e8cac3d7af3)
+
+En este momento la raspberry y el sensor LiDAR estan incluidos en la estructura del robot, sin embargo no se utilizan para la realización del reto.
 
 El Arduino está alimentado por una batería de 9v, y enciende mediante un interruptor. Se encarga de alimentar y dar las respectivas señales al servomotor, para que sea capaz de realizar los cruces de forma efectiva con facilidad al giroscopio, además de dar y recibir señales del resto de sensores. 
 
@@ -153,17 +161,3 @@ Para más información sobre la mecánica, se ha creado un documento en el que p
 
 
 
-# Planteamiento futuro
-
-En un futuro, es posible que el equipo incorpore un sensor LiDAR, junto a una rasperry pi para su programación.
-Esto se debe a la ventaja que representa el uso de este durante el segundo reto, ayudando a realizarlo de forma mas precisa y con menor error durante las pruebas. 
-A continuación se muestran las especificaciones de estos: 
-
-Raspberry pi 5: Es la última versión de las computadoras de placa única desarrolladas por la Fundación Raspberry Pi, lanzada en 2023. Esta versión incluye un procesador Broadcom BCM2712 de cuatro núcleos Arm Cortex-A76 a 2,4 GHz, lo que la hace entre dos y tres veces más rápida que la generación anterior. Viene en versiones de 4 GB y 8 GB de memoria RAM LPDDR4X, incorpora una GPU mejorada compatible con OpenGL ES 3.1 y Vulkan 1.2, y permite conectar dos monitores 4K a 60 Hz al mismo tiempo. Además, ofrece conectividad avanzada con Wi-Fi 5, Bluetooth 5.0, Ethernet Gigabit, dos puertos USB 3.0, dos USB 2.0, dos micro HDMI, ranura microSD de alta velocidad, conectores MIPI para cámaras y pantallas, y un puerto PCIe para discos SSD u otros periféricos rápidos (usando un adaptador). También cuenta con un botón de encendido, reloj en tiempo real, soporte para ventilador y mejoras en la gestión de energía. Gracias a estas características, la Raspberry Pi 5 es ideal tanto para proyectos de electrónica y robótica como para usarse como mini PC, servidor, centro multimedia o incluso para tareas más exigentes como inteligencia artificial y procesamiento de imágenes, representando un gran avance en potencia y versatilidad dentro del mundo de las computadoras compactas y económicas.
-![Image](https://github.com/user-attachments/assets/33d23ad4-043a-4c6b-8bab-c31a648c3e4a)
-
-Sensor LiDAR: Un sensor LiDAR (Light Detection and Ranging) es un dispositivo de teledetección que utiliza pulsos de luz láser para medir distancias con gran precisión y crear mapas tridimensionales del entorno. Su funcionamiento se basa en emitir miles de pulsos de láser por segundo hacia los objetos; estos pulsos rebotan y regresan al sensor, que mide el tiempo que tarda cada pulso en ir y volver. Como la velocidad de la luz es conocida, este tiempo de vuelo permite calcular la distancia exacta entre el sensor y los objetos o superficies. Los datos recolectados se procesan para formar una nube de puntos, que es una representación 3D detallada del área escaneada.
-![Image](https://github.com/user-attachments/assets/234ebb64-bf87-4ec4-82ca-5e8cac3d7af3)
-
-
-La Raspberry Pi 5 y un sensor LIDAR pueden funcionar juntos conectando el sensor a la placa mediante interfaces como USB o UART; la Raspberry Pi procesa los datos de distancia que el LIDAR obtiene al emitir pulsos láser y recibir el rebote, permitiendo así crear mapas 3D, detectar obstáculos o navegar de forma autónoma en proyectos de robótica y automatización. Esta combinación es ideal porque la Raspberry Pi 5 tiene la capacidad de recibir, almacenar y analizar en tiempo real la información del sensor, facilitando aplicaciones como el mapeo, la navegación y la detección de objetos en entornos complejos.
