@@ -33,6 +33,13 @@ El equipo ha hecho su mayor esfuerzo para conseguir construir el mejor robot pos
 "Pompo" es un robot autónomo diseñado con piezas de lego, con la finalidad de conseguir la mayor presición y estabilidad posible durante las rondas de competencia. Dichas piezas fueron extraídas de un kit lego spike prime código 45678 y spike prime expansion set código 45681. 
 El fundamento que llevó a utilizar piezas de lego para el cuerpo de pompo se basa en la conocida eficiencia de los robots construidos de dicha manera, tomando en cuenta los resultados positivos y la facilidad que permiten a la hora de la construcción. 
 Además, en el apartado "v-photos" se muestran fotos del diseño de Pompo, donde se pueden ver y analizar eficientemente todos los componentes, piezas y estructuras.
+A continuación el diseño 3D de las diversas bases de lego que se usan en la estructura (en el apartado "models" se ve el archivo original del diseño): 
+
+![Image](https://github.com/user-attachments/assets/5b7af0b6-441f-4880-8d1f-e71637f6b006)
+
+![Image](https://github.com/user-attachments/assets/a4c70eec-a4b5-4d26-86e3-5d2190d3b326)
+
+![Image](https://github.com/user-attachments/assets/dd3a7d52-695a-4912-9071-1e9b083b1505)
 
 
 
