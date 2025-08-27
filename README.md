@@ -29,515 +29,293 @@ Este repositorio contiene todos los materiales necesarios para crear a "pompo", 
 El equipo ha hecho su mayor esfuerzo para conseguir construir el mejor robot posible. Nuestra preparación para estas olimpiadas se ha basado en un largo aprendizaje en construcción, diseño y programación, y la experiencia de competencias anteriores ha sido fundamental. Largas horas de análisis y estudio de la pista ha llevado a la creación de una estrategia propia, basada en los componentes con los que el equipo deseó trabajar, y esperando conseguir la mejor participación posible en las diversas etapas de esta competencia. 
 # Etapas del desarrollo
 
-LUKA 
-During the 2023 season, the design of the robot was always one of the biggest problems the team faced, this during all phases of the competition. The acrylic bases that were used in the first competitions did not work, since they had many imperfections, causing the traction and steering system to be poorly located, as well as a really bad distribution. Despite all this, that chassis gave us an idea of ​​how to design a new one, so after the 2023 national competition, new acrylic bases were used, this time laser cutted. After this, the chassis looked really good in all aspects.
-
-![bases de acrilico pequeño](https://github.com/RoboticaLLR/RedMachine/assets/146040533/1ab2bf5b-492d-4d9f-b8cb-7154f9053f9f)
-
-In addition, the robot's wheels were changed with new ones that held better to the steering system, which also provided better aesthetics to the robot.
-
-After participating in the World Cup in Panama, the team decided to make important changes when creating the new prototype. 
-Among these changes, the closer between the wheels of the traction and steering system stands out, with the aim of increasing the turning radius, allowing tighter turns. This mainly helps the development of the obstacle challenge, due to the difficulty of the challenge, and the strategy the team wishes to use.
-
-![Luka`s right](https://github.com/user-attachments/assets/7adb4b68-6ba3-44b4-b7dc-02d3c609dd1a)
-   
-![julian de lado 2024 2](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/c3f7801c-d940-4992-b78f-98beb0f70ac8)  
-
-
-Likewise, the size of the robot was reduced by approximately 5 centimeters, helping the robot to be freer on the playing field, and making it easier to meet the challenges. To achieve this, the acrylics were redesigned, with the new ones having a completely different structure from the previous one.
-![acrilicos luka pequeño1](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/93bda588-5d18-4f1c-8973-c6c9f80af70f)
-
-Another very important change was to redesign the steering system, which was again built with Lego pieces, coming from the spike prime robotics kit number 45678. 3 of these pieces were joined with a pair of wheels to finish its construction.
-
-![foto sistema direccion  1](https://github.com/user-attachments/assets/fb4946ed-f055-4171-9542-48f1bef775e9)
-
-
-
-In the same way, a 3D design was made, where we could see and efficiently analyze everything related to the robot.
-### right
-![WhatsApp Image 2024-11-13 at 13 52 58_05e5de05](https://github.com/user-attachments/assets/0b5c060e-33ad-4477-b3c4-377615a6cf7b)
-### Left
-![WhatsApp Image 2024-11-13 at 13 54 51_21982268](https://github.com/user-attachments/assets/3b6c59b8-5937-493e-82a6-7f05f8257ca6)
-### Front
-![WhatsApp Image 2024-11-13 at 13 53 22_d6ef839f](https://github.com/user-attachments/assets/0f04d1ab-3092-4d91-9025-a2c85ab1c4a4)
-### Back
-![WhatsApp Image 2024-11-13 at 13 52 30_cd6ade6e](https://github.com/user-attachments/assets/e959fc69-fd42-4a32-8b51-ee0cc8c62794)
-### Above
-![WhatsApp Image 2024-11-13 at 13 55 55_4ce29d41](https://github.com/user-attachments/assets/279e3c23-2072-4bb1-bf15-aab938d821c9)
-### Below
-![WhatsApp Image 2024-11-13 at 13 56 54_399b5e24](https://github.com/user-attachments/assets/ee7c4b06-4de3-42b4-be29-2a76cc698b72)
-
-# Videos version 2.0 robot
- - [First challenge (ALL POSIBILITIES)](https://www.youtube.com/watch?v=auAgh7E2WA8)
-
-[![image](https://github.com/user-attachments/assets/ed1c0d5b-dab7-4e8b-98aa-dfcefc9b1e91)](https://www.youtube.com/watch?v=auAgh7E2WA8)
- 
-
- - [Second challenge practice](https://www.youtube.com/watch?v=cjjnRDXaDAU)
-
-[![image](https://github.com/user-attachments/assets/b4dc474c-5cb7-4fe4-aece-13e8c19d635f)](https://www.youtube.com/watch?v=cjjnRDXaDAU)
-
-
-# Analysis of engines operation
-In the following space, aspects of the operation of the 2 motors of our robot will be shown.
-
-## Motor Core Hex 
-
-![image](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/6b746939-ccca-4912-8b1c-9ad4e71ff221)
-
-- Pinout: The Core Hex motor uses a 2-pin JST-VH connector for motor power.
-
-![i](https://github.com/user-attachments/assets/cb5b1293-0dfd-4212-b587-674aa33f21d3)
-
-- Weight: 7 ounces
-
-- Installation: To use this motor in the way the equipment needs it, a 5mm hexagonal shaft is used, from which one end emerges from each side of the motor. Said shaft has a length of 11.8cm, and its structure is made of stainless steel. At each end of this axle, a traction wheel was placed, whose diameter is 90mm. Finally these wheels were secured to the axle with collars, which have a set screw that tightens towards the axle.
-
-![image](https://github.com/user-attachments/assets/8bef9bab-571f-4ab2-a236-f04a72f93711)
-
-![image](https://github.com/user-attachments/assets/e6822eb6-4ea4-480e-8bea-89c9130ea8c0)
-
-![image](https://github.com/user-attachments/assets/d6850397-0bf1-4e28-895d-833c83149a95)
-
-![image](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/980cb8f4-5084-4b9c-bd1e-64fec1b01462)
-
-![image](https://github.com/RoboticaLLR/redmachine2024/assets/155327813/a078144d-4553-4803-a540-ab6f2e750554)
-
-- Power: The motor power is specified below. 
-
-- Torque: 3.2 N-m
-
-- Operating voltage: 12V
-
-- Free speed: 125 RPM
-
-
-## Smart Robot Servo
-
-![Screenshot 2024-11-08 103745](https://github.com/user-attachments/assets/473534ce-37d2-4f08-9721-a207be8490b3)
-
-
-- Installation: A cut aluminum double servo arm was anchored to the Smart Robot Servo. Then a screw was placed in one of the entrances of the aluminum arm, which joined it with two pieces of Lego. A second screw joins the two Lego pieces mentioned above.  Likewise, two screws from the chassis were anchored in the third piece of Lego, so that it worked as a support. Finally the wheels were placed, which fit between the three Lego pieces.
-
-![Screenshot 2024-11-08 103852](https://github.com/user-attachments/assets/43367d50-6ccf-498b-9c06-c9612c199d0e)
-
-
-![foto sistema direccion 2](https://github.com/user-attachments/assets/d22ed9c8-2579-46ad-96a0-f00472432b56)
-
-
-![foto sistema direccion  1](https://github.com/user-attachments/assets/fb4946ed-f055-4171-9542-48f1bef775e9)
-
-
-
-- Operating voltage: From 4.8V to 7.4V. On the robot, the servo runs on 5V. 
-
-- Turning radius: Can rotate up to 270°
-
-- Torque: 13.5 kg-cm
-
-- Speed: 0.13s/60º
-
-- Weight: 2.05 ounces
-
-- Gear material: Brass
-
-- Power: The servo power is specified below. 
-
-- Input pulse:    
-Minimum-500 μs        
-Center-1500μs       
-Maximum-2500 μs
-
-![Screenshot 2024-11-08 104017](https://github.com/user-attachments/assets/26bf1371-24b6-427f-be1d-9da5c48c0dc1)
-
-
-
-
-# Sensors
-Next, the specifications of the sensors that are in Luka will be shown.
-
-## Ultrasounds
-Three ultrasounds are used to define the distance between the robot and the walls of the track, specifically the side and front walls according to the direction in which Luka is heading.
-
-![Screenshot 2024-11-08 104130](https://github.com/user-attachments/assets/1e2dcd67-23b4-4e43-9aa0-8c34c85a97e9)
-
-- Connection pins:        
-VCC            
-Trig (Ultrasound Trigger)                 
-Echo (Ultrasound reception)             
-GND
-
-![image](https://github.com/RoboticaLLR/redmachine2024/assets/146040533/9cfeae57-2def-47ad-9158-ded9577fc56a)
-
-
-- Supply voltage: 5V
-
-- Working frequency: 40 KHz
-
-- Maximum detection range: 450cm
-
-- Minimum detection range: 2cm
-
-- Detection angle: 15 degrees
-
-- Consumption current: 15mA
-
-
-
-## giroscope
-A BNO055 is used to measure the degrees of every turn and know when the robot should stop turning. The giroscope is used both to avoid the traffic signs and to take the turns. 
-
-![BNO055](https://github.com/user-attachments/assets/33946a22-2ff8-4f12-b0c4-97331cfa95cb)
-
-- Connection pins:    
-Vin           
-3V      
-P50       
-GND         
-PS1          
-SDA         
-INT          
-SCL  
-ADR      
-RST 
-
-The team use the Vin input to power the sensor, the ground pin, and the SDA and SCL to stablish a communication between the arduino and the BNO055. 
-
-Data Output:
-The BNO055 can output the following sensor data:
-
-- Absolute Orientation (Euler Vector, 100Hz): Three axis orientation data based on a 360° sphere
-
-- Absolute Orientation (Quaterion, 100Hz): Four point quaternion output for more accurate data manipulation
-
-- Angular Velocity Vector (100Hz): Three axis of 'rotation speed' in rad/s
-
-- Acceleration Vector (100Hz): Three axis of acceleration (gravity + linear motion) in m/s^2
-
-- Magnetic Field Strength Vector (20Hz): Three axis of magnetic field sensing in micro Tesla (uT)
-
-- Linear Acceleration Vector (100Hz): Three axis of linear acceleration data (acceleration minus gravity) in m/s^2
-
-- Gravity Vector (100Hz): Three axis of gravitational acceleration (minus any movement) in m/s^2
-
- 
-
-# Camera
-Luka uses one camera to detect the color of the traffic signs. This is the pixy2. 
-
-![pixy2.1](https://github.com/user-attachments/assets/46298b4d-2184-4b40-9b81-577219ed9214)
-
-The pixy2 works at 60 fps, and is able to detect objects, lines and colors. On luka the main objetive of the camera is to detect colors (red and green). 
-its connected to the arduino with an IDC 2 ICSP Arduino cable that goes into the arduino ICSP pins, wich provides all the connections needed to power and communicate with the pixy. 
-
-# Controller boards
-Luka uses a single controller boards: an Arduino Mega 2560. The Arduino, which is in charge of controlling the actuators, the sensors, and the entire movement of the robot.
-
-## Arduino mega 2560
-
-![Screenshot 2024-11-08 104239](https://github.com/user-attachments/assets/877f86c1-f333-4b46-bc66-869465ee6ebf)
+LUKA  
+Durante la temporada 2023, el diseño del robot siempre fue uno de los mayores problemas que enfrentó el equipo, esto durante todas las fases de la competencia. Las bases de acrílico que se usaron en las primeras competencias no funcionaron, ya que tenían muchas imperfecciones, causando que el sistema de tracción y dirección estuviera mal ubicado, así como una distribución realmente mala. A pesar de todo esto, ese chasis nos dio una idea de cómo diseñar uno nuevo, por lo que después de la competencia nacional 2023, se usaron nuevas bases de acrílico, esta vez cortadas con láser. Después de esto, el chasis se veía realmente bien en todos los aspectos.  
+![bases de acrilico pequeño](https://github.com/RoboticaLLR/RedMachine cambiadas por otras nuevas que se sujetaban mejor al sistema de dirección, lo que también proporcionó mejor estética al robot.  
+Después de participar en la Copa Mundial en Panamá, el equipo decidió hacer cambios importantes al crear el nuevo prototipo.  
+Entre estos cambios destaca el acercamiento entre las ruedas del sistema de tracción y dirección, con el objetivo de aumentar el radio de giro, permitiendo giros más cerrados. Esto principalmente ayuda al desarrollo del desafío de obstáculos, debido a la dificultad del reto y a la estrategia que el equipo desea usar.  
   
+![julian de lado 2024 2](https://github.com/RoboticaLLR/redmachinejo aproximadamente 5 centímetros, ayudando a que el robot tuviera mayor libertad en el campo de juego, y facilitando el cumplimiento de los retos. Para lograr esto, se rediseñaron los acrílicos, con los nuevos teniendo una estructura completamente diferente a la anterior.  
+![acrilicos luka pequeño1](https://github.com/RoboticaLLR/redmachineñar el sistema de dirección, el cual nuevamente se construyó con piezas Lego, provenientes del kit de robótica Spike Prime número 45678. 3 de estas piezas fueron unidas con un par de ruedas para terminar su construcción.  
+  
+De la misma forma, se hizo un diseño 3D, donde pudimos ver y analizar eficientemente todo lo relacionado con el robot.  
 
-- Power: 9V
+  
+# Videos versión 2.0 del robot  
+ - [Primer desafío (TODAS LAS POSIBILIDADES)](https://www.youtube.com/watch?v=auAgh7E2WA8)  
+[](https://www.youtube.com/watch?v=auAhttps://www.youtube.com/watch?v=cjjnRDXaDAU)  
+[](https://www.youtube.com/watch?v=cjjnores  
+A continuación, se mostrarán aspectos sobre el funcionamiento de los 2 motores de nuestro robot.  
+## Motor Core Hex  
+![image](https://github.com/RoboticaLLR/redmachineector JST-VH de 2 pines para la alimentación del motor.  
+  
+- Peso: 7 onzas  
+- Instalación: Para usar este motor de la manera que el equipo lo necesita, se usa un eje hexagonal de 5 mm, del cual un extremo sobresale de cada lado del motor. Dicho eje tiene una longitud de 11.8 cm, y su estructura está hecha de acero inoxidable. En cada extremo de este eje, se colocó una rueda de tracción, cuyo diámetro es de 90 mm. Finalmente, estas ruedas fueron aseguradas al eje con collares, que cuentan con un tornillo de fijación que aprieta hacia el eje.  
+  
+  
+  
+![image](https://github.com/RoboticaLLR/redmachineine especifica a continuación.  
+- Torque: 3.2 N-m  
+- Voltaje de operación: 12V  
+- Velocidad libre: 125 RPM  
+## Servo Inteligente para Robots (Smart Robot Servo)  
+  
+- Instalación: Un brazo servo doble de aluminio recortado fue anclado al Smart Robot Servo. Luego, se colocó un tornillo en una de las entradas del brazo de aluminio, que lo une con dos piezas de Lego. Un segundo tornillo une las dos piezas de Lego mencionadas. Asimismo, dos tornillos del chasis fueron anclados en la tercera pieza de Lego, para que funcionara como soporte. Finalmente, se colocaron las ruedas, que encajan entre las tres piezas de Lego.  
+  
+  
+  
+- Voltaje de operación: De 4.8V a 7.4V. En el robot, el servo funciona a 5V.  
+- Radio de giro: Puede girar hasta 270°  
+- Torque: 13.5 kg-cm  
+- Velocidad: 0.13s/60º  
+- Peso: 2.05 onzas  
+- Material de engranajes: Latón  
+- Potencia: La potencia del servo se especifica a continuación.  
+- Pulso de entrada:  
+  Mínimo-500 μs  
+  Centro-1500 μs  
+  Máximo-2500 μs  
+  
+# Sensores  
+A continuación, se muestran las especificaciones de los sensores que tiene Luka.  
+## Ultrasonido  
+Se usan tres ultrasónicos para definir la distancia entre el robot y las paredes de la pista, específicamente las paredes laterales y frontales según la dirección en la que Luka se esté moviendo.  
+  
+- Pines de conexión:  
+  VCC  
+  Trig (Disparo ultrasonido)  
+  Echo (Recepción ultrasonido)  
+  GND  
+![image](https://github.com/RoboticaLLR/redmachine trabajo: 40 KHz  
+- Rango máximo de detección: 450 cm  
+- Rango mínimo de detección: 2 cm  
+- Ángulo de detección: 15 grados  
+- Corriente de consumo: 15 mA  
+## Giroscopio  
+Se usa un BNO055 para medir los grados de cada giro y saber cuándo el robot debe parar de girar. El giroscopio se usa tanto para evitar las señales de tránsito como para tomar las curvas.  
+  
+- Pines de conexión:  
+  Vin  
+  3V  
+  P50  
+  GND  
+  PS1  
+  SDA  
+  INT  
+  SCL  
+  ADR  
+  RST  
+El equipo utiliza la entrada Vin para alimentar el sensor, el pin de tierra, y los pines SDA y SCL para establecer comunicación entre el Arduino y el BNO055.  
+Salida de datos:  
+El BNO055 puede entregar los siguientes datos de sensores:  
+- Orientación absoluta (Vector Euler, 100Hz): Datos de orientación en tres ejes basados en una esfera de 360°  
+- Orientación absoluta (Cuaternión, 100Hz): Salida cuaternión de cuatro puntos para manipulación más precisa  
+- Vector de velocidad angular (100Hz): Tres ejes de ‘velocidad de rotación‘ en rad/s  
+- Vector de aceleración (100Hz): Tres ejes de aceleración (gravedad + movimiento lineal) en m/s²  
+- Vector de intensidad del campo magnético (20Hz): Tres ejes de detección del campo magnético en micro Tesla (uT)  
+- Vector de aceleración lineal (100Hz): Tres ejes de aceleración lineal (aceleración menos la gravedad) en m/s²  
+- Vector de gravedad (100Hz): Tres ejes de aceleración gravitacional (menos cualquier movimiento) en m/s²  
+# Cámara  
+Luka usa una cámara para detectar el color de las señales de tránsito. Esta es la pixy2.  
+  
+La pixy2 funciona a 60 fps, y es capaz de detectar objetos, líneas y colores. En Luka, el objetivo principal de la cámara es detectar colores (rojo y verde).  
+Está conectada al Arduino con un cable IDC 2 ICSP Arduino que va a los pines ICSP del Arduino, lo cual proporciona todas las conexiones necesarias para alimentar y comunicarse con la pixy.  
+# Placas controladoras  
+Luka usa una sola placa controladora: un Arduino Mega 2560. El Arduino está a cargo de controlar los actuadores, los sensores y todo el movimiento del robot.  
+## Arduino Mega 2560  
+  
+- Potencia: 9V  
+- Pines usados: 21  
+- Corriente máxima por pin: 40 mA  
+- Memoria Flash: 256 KB  
+- SRAM: 8 KB  
+- Peso: 37 gramos  
+- Consumo: 93 mA  
+# Alimentación del robot  
+En Luka hay dos sistemas individuales de alimentación.  
+## Circuito de 12V  
+Este circuito usa 3 baterías, cada una con aproximadamente 4V. Las 3 baterías están conectadas en serie, por lo que el voltaje se suma. El puente H es el componente eléctrico que recibe esta energía y la usa para alimentar dos sensores ultrasónicos y el motor de tracción.  
+Para conectar las baterías el equipo utiliza dos paquetes de dos baterías cada uno, pero uno de ellos está modificado para usar sólo una batería.  
+  
+  
+## Circuito de 9V  
+Este circuito usa 3 baterías de 9V conectadas en paralelo, por lo que la amperaje se suma manteniendo los 9V. Está conectado directamente a la placa Arduino, que alimenta un ultrasonido, la cámara pixy y el servo motor. Cada uno de estos componentes es energizado por un pin de salida de 5V del Arduino.  
+  
+  
+# Diagrama de conexiones  
+Se muestra el diagrama de conexiones para que todo el circuito pueda verse claramente.  
+  
+## Código de la versión 2.0 del robot  
+# Procesamiento de imágenes  
+Para procesar la imagen, Luka usa una cámara. Esta es la pixy2.  
+  
+La pixy2 funciona a 60 fps, y es capaz de detectar objetos, líneas y colores. En Luka, el objetivo principal de la cámara es detectar colores (rojo y verde).  
+Está conectada al Arduino con un cable IDC 2 ICSP Arduino que va a los pines ICSP del Arduino, lo que proporciona todas las conexiones necesarias para alimentar y comunicarse con la pixy.  
+## Detección de color  
+Pixy2 usa un algoritmo de filtrado basado en colores para detectar objetos llamado Color Connected Components (CCC). Pixy2 calcula el color (matiz) y saturación de cada píxel RGB del sensor de imagen y los usa como los parámetros principales de filtrado. El matiz de un objeto permanece mayormente inalterado con cambios en la iluminación y exposición. El algoritmo CCC de Pixy2 recuerda hasta 7 firmas de color diferentes.  
+Después de que un color es guardado como una firma de color, la pixy lo añadirá a una tabla de objetos que está siguiendo actualmente y le asignará un índice de seguimiento. Luego intentará encontrar el objeto (y cada objeto en la tabla) en el siguiente cuadro buscando su mejor coincidencia. Cada objeto rastreado recibe un índice entre 0 y 255 que conservará hasta que deje el campo de visión de Pixy2.  
+  
+## Programación  
+Para configurar los colores que la cámara debe detectar, el equipo usa PixyMon. PixyMon es una aplicación que corre en Windows, MacOs y Linux. Permite ver lo que Pixy2 ve, ya sea vídeo en crudo o procesado. También permite configurar Pixy2, establecer el puerto de salida y administrar firmas de color. PixyMon se comunica con Pixy2 mediante un cable USB mini estándar.  
+  
+En PixyMon, el equipo configura 6 firmas, tres para verde y tres para rojo. Las firmas 1, 3 y 5 para rojo, y las firmas 2, 4 y 6 para verde.  
+Luego se realiza el procesamiento en Arduino.  
+En Arduino, el equipo usa la librería pixy2, que permite obtener toda la información necesaria de la detección por pixy. Posteriormente, usando el siguiente código, el equipo guarda cuándo pixy detecta un color y a qué firma corresponde en una variable llamada "hola". Si "hola" es divisible por dos, entonces el color es verde, y si no es divisible por dos, entonces el color es rojo.  
+  
+# Función general del robot  
+## Determinación del servo  
+El servo motor está asignado al pin 2 del Arduino, donde se configura usando el comando `pro.attach(2)` y también puede moverse con el comando `pro.write()`, usado a lo largo del código.  
+## Orientación  
+Con los sensores ultrasónicos se detecta dónde están las paredes y, cuando se llega a una curva, se define si es necesario cruzar a la derecha o a la izquierda (guardado como 1=antihorario, 2=horario), evitándonos problemas con las líneas del suelo. Esto se puede hacer porque el carro choca con la pared, permitiendo saber cuándo está tomando un giro lateral. Esta parte del código ocurre al iniciar el programa.  
+```cpp  
+if((d<50)&&(d!=0)&&(a==0)){  
+  if((di<80)&&(d!=0)){ // Definición giro horario  
+    a=2;  
+    pro.write(derecha);  
+    Serial.println("a2");  
+    Serial.println(d);  
+    delay(1800);  
+    pro.write(rec);  
+    giro++;  
+    analogWrite(2,vel);  
+    Serial.println("a2");  
+    delay(500);  
+  }  
+  if((di>80)||(di==0)){ // Definición giro antihorario  
+    a=1;  
+    pro.write(izquierda);  
+    Serial.println("a1");  
+    Serial.println(d);  
+    delay(1400);  
+    giro++;  
+    pro.write(rec);  
+    analogWrite(2,vel);  
+    Serial.println("a1");  
+  }  
+  d=sensor_2.ping_cm();  
+  delay(500);  
+}  
+```
+## Giroscopio para giros laterales  
+El giroscopio es esencial en la parte de giros laterales, usamos un BNO055 y los ángulos Euler para obtener una combinación del magnetómetro y acelerómetro incluidos en el sensor, así obtenemos ángulos precisos, sin ningún drift que pueda tener un acelerómetro.  
+Cómo se implementó en el código es mediante 6 funciones. Están Girarizq90, Girarder90, iraizq, irader, iraizq2, irader2. Estas funciones están destinadas a hacer giros laterales de 90 grados y regresar a la orientación correcta que debería tener el robot. Funcionan estableciendo una variable "angulof" que sirve como el ángulo esperado. Luego un ciclo revisa si el robot está cerca de ese ángulo y lo declara como una orientación correcta.  
+Todas estas funciones pueden verse en  
 
-- Pins used: 21
+# Primer desafío  
+## Corrección  
+Aunque el Giroscopio nos da un ángulo preciso, a veces podemos enfrentar diferentes problemas debido a los robots o paredes implementadas en el Desafío. Por eso creamos un sistema de rectificación bastante simple que previene que Luka choque contra las paredes.  
+Esta corrección funciona mediante los 2 sensores ultrasónicos en ambos lados del robot. Cuando la distancia entre el robot y la pared es pequeña, hacemos un movimiento corto hacia la izquierda o derecha para evitar que el desafío termine.  
+El código que usamos es el siguiente:  
+```cpp  
+if (((dd<15)&&(dd>0)&&(giro!=0)&&(d>100))||((dd<15)&&(dd>0)&&(giro!=0)&&(d==0))){  
+  pro.write(izquierda);  
+  delay(300);  
+  pro.write(rec);  
+  delay(300);  
+}  
+if (((di<15)&&(di>0)&&(giro!=0)&&(d>80))||((di<15)&&(di>0)&&(giro!=0)&&(d==0))){  
+  pro.write(derecha);  
+  delay(300);  
+  pro.write(rec);  
+  delay(300);  
+}  
+```
+Esta parte del código también puede encontrarse en  
 
-- Maximum current per pin: 40 mA
-
-- Flash memory: 256 KB
-
-- SRAM: 8KB
-
-- Weight: 37 grams
-
-- Consumption: 93 mA
-
-
-
-
-# Robot power
-In Luka there are two individual powering systems.
-
-## 12V ciruit
-This circuit use 3 batteries, each one contain 4v approximately. The 3 batteries are connected on series, so the voltage adds up. The H-bridge is the electrical component that recieve this energy, and use it to power two ultrasounds and the traction motor. 
-To connect the batteries the team use two packs of two batteries each, but one of them is moded so it only uses one battery. 
-
-![pack de baterias modeado 2](https://github.com/user-attachments/assets/c07fb25c-0ca6-4173-b0fa-797ddf2f16f2)
-![2 packs de baterias 4V 4](https://github.com/user-attachments/assets/7a6248cc-fc05-4bf4-bfd4-aad78766bb06)
-
-
-## 9V circuit
-This circuit use 3 9V batteries connected on parallel, so the amperage adds up, keeping the same 9V. Its connected directly to the arduino board, wich power one ultrasound, the pixy cam and the servo motor. Each one of this components are energized by a 5V output pin of the arduino. 
-
-![Primera foto 9 voltios 2](https://github.com/user-attachments/assets/79c1b298-762f-4a96-95a9-bb6aa8bb3e1f)
-![segunda foto 9 voltios 2](https://github.com/user-attachments/assets/a10426e9-767d-496e-b5a6-bf88363a8a4a)
-
-# Conexions diagram
-The connection diagram is shown so that the entire circuit can be clearly seen.
-
-![Diagrama de conexion luka nuevo](https://github.com/user-attachments/assets/6a02a72f-8d6e-445f-9afe-fa92380ca7a5)
-
-
-
-
-
-## Codigo de la version 2.0 del robot
-
-# Image Processing
-To process the image, Luka uses one camera. This is the pixy2. 
-
-![pixy2.1](https://github.com/user-attachments/assets/46298b4d-2184-4b40-9b81-577219ed9214)
-
-The pixy2 works at 60 fps, and is able to detect objects, lines and colors. On luka the main objetive of the camera is to detect colors (red and green). 
-its connected to the arduino with an IDC 2 ICSP Arduino cable that goes into the arduino ICSP pins, wich provides all the connections needed to power and communicate with the pixy. 
-
-## Color detection
-Pixy2 uses a color-based filtering algorithm to detect objects called the Color Connected Components (CCC) algorithm. Pixy2 calculates the color (hue) and saturation of each RGB pixel from the image sensor and uses these as the primary filtering parameters. The hue of an object remains largely unchanged with changes in lighting and exposure. Pixy2's CCC algorithm remembers up to 7 different color signatures.
-
-After a color is saved on a color signature, the pixy will add it to a table of objects that it is currently tracking and assign it a tracking index. It will then attempt to find the object (and every object in the table) in the next frame by finding its best match. Each tracked object receives an index between 0 and 255 that it will keep until it either leaves Pixy2's field of view. 
-
-![color_tracking](https://github.com/user-attachments/assets/46d2f0c5-c726-4a08-a899-b9a19b0e1dee)
-
-
-## Programming 
-To set the colors that the camera should detect, the team uses pixymon. PixyMon is an application that runs on Windows, MacOs and Linux. It allows you to see what Pixy2 sees, either as raw or processed video. It also allows you to configure your Pixy2, set the output port and manage color signatures. PixyMon communicates with Pixy2 over a standard mini USB cable.
-
-![Screenshot 2024-11-11 103435](https://github.com/user-attachments/assets/f58a573e-7a54-49de-9017-4953aa863677)
-
-On pixymon the team set 6 signatures, three for green and three for red. Signatures 1, 3 and 5 for red, and signatures 2, 4 and 6 for green. 
-
-After this the arduino proccesing needed to be done. 
-
-On the arduino, the team uses the pixy2 library, which allows to obtain all the information needed from the pixy detection. Then, using the following code, the team saves when the pixy detects a color and which signatures does the color correspond to on a variable called "hola". If hola is divisible by two, then the color is green, and if hola isn't dividible by two, then the color is red. 
-
-- [Pixy code](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/Pixy.ino)
-
-
-# General function of robot
-
-## Servo Determination
-
-The servo motor is set to pin 2 of the arduino, where it is configured using the `pro.attach(2)` command and can also be moved using the `pro.write()` command used throughout the code.
-
-
-## Orientation
-With the ultrasound sensors we detect where the walls are and when we reach a curve we define whether it is necessary to cross to the right or to the left (stored as 1=counterclockwise, 2=clockwise), saving us problems with the lines of the floor. This can be made because the car crashes with the wall, allowing us to know when he is on a sideturn. This part of the code occurs when the program begins.
-
-    if((d<50)&&(d!=0)&&(a==0)){
-    if((di<80)&&(d!=0)){ // Definicion giro horario
-    a=2;
-    pro.write(derecha);
-    Serial.println("a2");
-    Serial.println(d);
-    delay(1800);
-    pro.write(rec);
-
-    giro++;
-    analogWrite(2,vel);
-    Serial.println("a2");
-    delay(500);
-    }
-
-    if((di>80)||(di==0)){ // Definicion giro antihorario
-    a=1;
-    pro.write(izquierda);
-    Serial.println("a1");
-    Serial.println(d);
-    delay(1400);
-    giro++;
-    pro.write(rec);
-
-     analogWrite(2,vel);
-    Serial.println("a1");
-     }
-     d=sensor_2.ping_cm();
-     delay(500);
-}
-
-## Gyroscope Sideturns
-
-The gyroscope is essencial on the sideturns part, we use a gy-97 BNO055 and a the Euler Angles to get a combination from both magnetometer and acelerometer included on the sensor, this way we get precise angles, without any drifting that any acelerometer has. 
-
-How we implemented in the code was in order for 6 functions. There are Girarizq90, Girarder90, iraizq, irader, iraizq2, irader2. These functions are intended to make both 90 degrees sideturns, and return to the way its supposed the robot to face. These works by establishing a variable "angulof" that works as the expected angle. Then a loop is responsible to check if it its near to that angle and declared as a correct orientation.
-
-All this functions can be seen on 
-- [Gyroscope Functions](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/GyroscopeFunctions)
-
-# First Challenge
-
-
-## Correction
-
-Even though Gyroscope give us a precise angle, sometimes we can face diferent problems because of the robots, or walls implemented on the Challenge. Thats why we created a pretty simple rectification system that prevents Luka crashing against the Walls.
-
-This Correction works by the 2 ultrasonic sensor on both sides of the robot. When the distance between the robot and the wall is small, we make a short movement either to the  left or to the right to avoid the Challenge to end.The code we use is the next one:
-
-    if (((dd<15)&&(dd>0)&&(giro!=0)&&(d>100))||((dd<15)&&(dd>0)&&(giro!=0)&&(d==0))){
-    pro.write(izquierda);
-    delay(300);
-    pro.write(rec);
-    delay(300);
-    }
-     if (((di<15)&&(di>0)&&(giro!=0)&&(d>80))||((di<15)&&(di>0)&&(giro!=0)&&(d==0))){
-    pro.write(derecha);
-     delay(300);
-     pro.write(rec);
-      delay(300)
-        }
-
-This part of the code can also be found on 
-- [Correction](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Correction.ino)
-
-## First Challenge parking
-
-
-Every time we do a side turn, we increment in 1 the variable giros, once we detected this variable is equal to 11 we can me sure its the final track, so we just turn in 90 degrees and go forward 3 seconds.
-
-    if(giro>11){
-    di=sensor_1.ping_cm();
-    dd=sensor_3.ping_cm();
-    d=sensor_2.ping_cm();
-     delay(3000);
+## Estacionamiento del primer desafío  
+Cada vez que hacemos un giro lateral, incrementamos en 1 la variable giros; una vez que detectamos que esta variable es igual a 11 podemos estar seguros de que es la pista final, así que simplemente giramos 90 grados y avanzamos durante 3 segundos.  
+```cpp  
+if(giro>11){  
+  di=sensor_1.ping_cm();  
+  dd=sensor_3.ping_cm();  
+  d=sensor_2.ping_cm();  
+  delay(3000);  
      
-    digitalWrite(adelante,LOW);
-    analogWrite(2,0);
-        }
-
-# Obstacle Challenge
-
-
-
-##  Detection of Pillars
-Once it receives the information from the pixycam, it can move to the left or right depending on the cone it has detected. We use a simple algorithm to detect which is the biggest traffic sign, this way it doesnt gets affected with any other red or green sign on the enviroment
-
+  digitalWrite(adelante,LOW);  
+  analogWrite(2,0);  
+}  
 ```
-int numBlocks = pixy.ccc.getBlocks();
-
-  if (numBlocks > 0) {
-    int maxArea = 0; // Variable para almacenar el área máxima
-    int maxSignature = 0; // Variable para almacenar la firma del bloque con mayor área
-
-    // Buscar el bloque con el área más grande
-    for (int i = 0; i < numBlocks; i++) {
-      int area = pixy.ccc.blocks[i].m_height * pixy.ccc.blocks[i].m_width;
-      if (area > maxArea) {
-        maxArea = area;
-        maxSignature = pixy.ccc.blocks[i].m_signature; // Guardar la firma del bloque más grande
-      }
-    }
-
-    // Evaluar la firma del bloque con mayor área
-    if (maxSignature % 2 == 0 && maxSignature != 0) {
-      Serial.println("verde");
-      hola = 2; // Asignar 1 a la variable hola
-      Serial.println(hola);
-    } 
-    else if (maxSignature % 2 == 1) {
-      Serial.print("rojo");
-
-      hola = 1; // Asignar 2 a la variable hola
-       Serial.println(hola);
-    }
-  }
-
+# Desafío de obstáculos  
+## Detección de pilares  
+Una vez recibe la información de la cámara pixy, puede moverse hacia la izquierda o derecha dependiendo del cono que haya detectado. Usamos un algoritmo simple para detectar cuál es la señal de tránsito más grande, de esta manera no se ve afectado por ninguna otra señal roja o verde en el entorno.  
+```cpp  
+int numBlocks = pixy.ccc.getBlocks();  
+if (numBlocks > 0) {  
+  int maxArea = 0; // Variable para almacenar el área máxima  
+  int maxSignature = 0; // Variable para almacenar la firma del bloque con mayor área  
+  // Buscar el bloque con el área más grande  
+  for (int i = 0; i < numBlocks; i++) {  
+    int area = pixy.ccc.blocks[i].m_height * pixy.ccc.blocks[i].m_width;  
+    if (area > maxArea) {  
+      maxArea = area;  
+      maxSignature = pixy.ccc.blocks[i].m_signature; // Guardar la firma del bloque más grande  
+    }  
+  }  
+  // Evaluar la firma del bloque con mayor área  
+  if (maxSignature % 2 == 0 && maxSignature != 0) {  
+    Serial.println("verde");  
+    hola = 2; // Asignar 2 a la variable hola  
+    Serial.println(hola);  
+  }   
+  else if (maxSignature % 2 == 1) {  
+    Serial.print("rojo");  
+    hola = 1; // Asignar 1 a la variable hola  
+    Serial.println(hola);  
+  }  
+}  
 ```
-It can also be seen at
-- [Pillar Detection](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Pillar-Detection.ino)
+También puede verse en  
 
-> [!IMPORTANT]
-> It can still be affected by other objects if theres any pillars or havent detected anything.
+> [!IMPORTANTE]  
+> Aún puede verse afectado por otros objetos si hay pilares o no ha detectado nada.  
+> [!IMPORTANTE]  
+> Este algoritmo está asignado a la función "detectarconos" y se repite en cada iteración.  
+## Movimiento mediante orientación  
+Una vez detectamos la dirección y sabemos en qué carril estamos, hacemos un movimiento preprogramado; así sólo programamos 6 posibles giros laterales para la primera vuelta. Estos pueden cambiar según el carril, la orientación y la ubicación en la pista.  
+Después de cada giro lateral, variables como cono1, cono2 y carril se restablecen a cero y se añade 1 a "giros" y "vuelta". Todos los giros posibles se encuentran en el enlace "Sideturns first lap".  
 
-> [!IMPORTANT]
-> This algorithm has been asigned to the function "detectarconos" and repeats each iteration
+## Evitación de pilares en la primera vuelta  
+La estrategia principal para evitar chocar contra los pilares es saber dónde está el robot. Por eso implementamos la forma más sencilla que pudimos imaginar: estableciendo 3 carriles (centro, izquierda y derecha). Así sólo hay que preocuparse por el movimiento entre estos carriles, y no calcular exactamente la distancia entre pilares.  
+Cómo el robot evita los pilares es evitando uno o dos como máximo. Por eso sólo preparamos 2 giros laterales para el primer pilar (rojo o verde) y luego 2 giros laterales para el segundo pilar (de izquierda a derecha y de derecha a izquierda). Este cambio de carril es muy sencillo con la implementación de un Giroscopio.  
+> [!CONSEJO]  
+> Movimiento está implementado en "esquivarconos" y el almacenamiento de los pilares está en "contarconos"  
+ 
+## Después del primer giro lateral  
+El robot detecta y evade cada pilar usando la misma estrategia, esta vez ya ha almacenado la orientación y, debido a nuestra estrategia de giros laterales, siempre inicia en el centro de la pista, así también sabemos en qué carril está.  
+En la parte final del recorrido, el robot reduce todos sus movimientos debido a la posibilidad de chocar contra el estacionamiento.  
+> [!CONSEJO] Esta parte del código usa las funciones "cruzar" y "esquivarconos"  
 
+## Almacenamiento de pilares  
+Cada vez que detectamos un pilar lo almacenamos en un grupo de variables dependiendo de la parte de la pista en la que está y si es el primero o segundo pilar que detecta. Por eso, después de la primera vuelta no necesitamos usar la cámara ni hacer giros laterales muy largos.  
+> [!CONSEJO] La forma en que lo separamos es: El primer número indica la parte de la pista, el segundo número indica si es el primer o segundo pilar en la pista. Ejemplo: Cono12 (primer carril, segundo pilar)  
+# Estrategia para la segunda y tercera vuelta  
+## Próximo pilar  
+Una parte muy importante para la estrategia de la segunda y tercera vuelta es el primer pilar en la siguiente parte de la pista. Usamos la función "proxicono" para detectarlo.  
+Funciona definiendo en qué parte de la pista está el robot y buscando el siguiente código con las variables que almacenan los pilares. También puedes ver la función en:  
+ 
+## Giros laterales  
+Una vez completada la primera vuelta, los giros laterales sólo requieren el Giroscopio y un sensor ultrasónico. Calculamos la distancia con la pared perpendicular a nosotros, usamos la función "proxicono" para saber qué pilar debemos evitar. Así, dependiendo del lado al que tengamos que ir y la orientación, hace un camino más corto o largo para evitarlo.  
+> [!IMPORTANTE]  
+> Si este cambio no se hace, el robot no podrá completar el desafío de obstáculos en 3 minutos.  
+> [!CONSEJO]  
+> Esta parte del código está definida en la función "giroscompleta"  
+> [!NOTA]  
+> Este cambio sencillo nos ahorra alrededor de 30 segundos por vuelta, dándonos suficiente tiempo para hacer todo el desafío.  
 
+## Estacionamiento desafío de obstáculos  
+Como sabemos que el robot siempre estará en un carril exacto, podemos asumir que nunca detectará un pilar con el sensor ultrasónico, por eso la estrategia de estacionamiento sólo incluye el sensor ultrasónico y el Giroscopio.  
+```cpp  
+if(giro==12&&d<120){  
+  delay(800);  
+  pro.write(derecha);  
+  girarder90();  
+  pro.write(rec);  
+  delay(3000);  
+  digitalWrite(2,0);  
+  delay(10000000);  
+}  
+```
 
-
-## Movement through Orientation
-
-Once we detect the direction and are aware of the lane we are in, we make a pre-programed movement, this way we only programmed 6 possible sideturns for the first lap.  They may change by the lane, orientation and spot of the track.
-
-    After every sideturn each variable such as cono1 and cono2 and carril are reestablished to zero and we add 1 to "giros" and "vuelta". All posible sideturns are located at "Sideturns first lap" link.
-
-
-- [Sideturns first lap](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Sideturns-First-Lap.ino)
-
-## Pillar Avoidment First Lap
-
-
-The main strategy to avoid crashing against the pillars is knowing where the robot is. Thats why we implemented the easiest way we could think and thats by establishing 3 lanes(middle, left and right). This way we only need to worry about the movement between these lanes, and not to exactly calculate the distance between pilars.
-
-How the robot avoids the pillars is by avoiding one or two maximum pillars. This way we only prepared 2 sideturns for the first pillar (red or green) and then 2 sideturns for the second pillar (left to right and right to left). This change of lane is very easy with the implementation of an Gyroscope.
-
-
-
-> [!TIP]
->   Movement is made by "esquivarconos" and the storage of the pillars is by "contarconos"
-
-- [Esquivarconos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Esquivarconos.ino)
-- [Contarconos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Contarconos.ino)
-
-## Post-first sideturn
-
-The robot detects and evade every pillar using the same strategy, this time it has already storaged the orientation and beacuse of our sideturn strategy it always begins at the middle of the track, this way we also know the lane we are.
-
-    At the last part of the path the robots reduces all its moves due to the posibility to crash against the parking lot 
-> [!TIP]This part of the code uses the functions "cruzar" and "esquivarconos"
-
-- [Cruzar](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Cruzar.ino)
-- [Esquivarconos](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Esquivarconos.ino)
-
-## Pillar storage
-
-
-Every time we detect a pillar we store them on a group of variables depending on the part of the track it is and if its the second or the first pillar it detects. Thats why after the first lap we dont have any need to use the camera or to make very long sideturns
-> [!TIP] The way we separated is: The first number means the part of the track, the second number means if it either goes first or second on the track. Example Cono12 (first lane, second pillar)
-
-# Second and Third Lap Strategy
-
-
-
-## Next Pillar
-
-A very important part for the Second and Third lap Strategy is the first pillar on the next part of the track. We use the function "proxicono" to detect it
-
-It works by defining it what part of the track the robot is, and finding the next code with the variables that store them. You can also check the function at:
-
-- [Proxicono](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Proxicono.ino)
-
-## Sideturns
-
-
-Once we completed the first lap, the Sideturns only require the Gyroscope and one ultrasonic sensor. We calculate the distance with the wall perpendicular against us, we use the "proxicono" function to know what are we supposed to avoid. This way depending on the side we have to go and the orientation it makes a shorter or larger path to avoid it.
-
-
-
-> [!IMPORTANT]
-> If this change its not made, the robot would not be able to complete the obstacle challenge in 3 minutes.
-
-> [!TIP]
-> This part of the code is defined on the funcion "giroscompleta"
-
-
-> [!NOTE]
-> This  simple change saves us around 30 seconds per lap, this way we get enough time to make the entire challenge4
-- [Sideturns Post First Lap](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Sideturns-Post-First-Lap.ino)
-
-## Parking Obstacle Challenge
-
-As we know the robot will always be on an exact lane, we can assume it will never detect with the ultrasonic sensor a pillar, thats why the parking strategy only includes the ultrasonic sensor and the Gyroscope
-
-    if(giro==12&&d<120){
-    delay(800);
-    pro.write(derecha);
-    girarder90();
-    pro.write(rec);
-    delay(3000);
-    digitalWrite(2,0);
-    delay(10000000);
-    }
-
-- [Parking Obstacle Challenge](https://github.com/RoboticaLLR/redmachine2024/blob/main/src/functions/Parking-Obstacle-Challenge.ino)
 
 
 > [!IMPORTANT]
